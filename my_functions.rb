@@ -6,3 +6,8 @@ end
 def sum_array(numbers)
   numbers.sum
 end
+
+def find_item(array, item)
+  return array.include? item
+end
+  
