@@ -17,21 +17,21 @@ class My_Functions < MiniTest::Test
     assert_equal( 5, result )
   end
 
-  ################################################################
+  ###############################################################
 
-  # # Write a function that has a parameter `numbers`
-  # # It should return the sum value of an array passed as the argument
-  #
-  # def test_sum_array
-  #   # arrange
-  #   numbers = [ 1, 2, 3, 4, 5 ]
-  #   # act
-  #   result = sum_array( numbers )
-  #   # assert
-  #   assert_equal( 15, result )
-  # end
+  # Write a function that has a parameter `numbers`
+  # It should return the sum value of an array passed as the argument
 
-  ################################################################
+  def test_sum_array
+    # arrange
+    numbers = [ 1, 2, 3, 4, 5 ]
+    # act
+    result = sum_array( numbers )
+    # assert
+    assert_equal( 15, result )
+  end
+
+  ###############################################################
 
   # # Write a function that has two parameters, `array` and `item`
   # # It should return true if the item exists in the array otherwise it should return false
